@@ -60,7 +60,7 @@ def monitor_endpoints(file_path):
         # Log cumulative availability percentages
         for domain, stats in domain_stats.items():
             availability = int(100 * stats["up"] / stats["total"])
-            print(f"{domain} has {availability}% availability percentage")
+            print(f"\n[{time.strftime('%Y-%m-%d %H:%M:%S')}] {domain} has {availability}% availability percentage")
         elapsed = time.time() - cycle_start
         print("---")
         time.sleep(15-elapsed)
