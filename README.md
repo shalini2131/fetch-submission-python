@@ -30,7 +30,7 @@ pip install requests pyyaml
 
 # Run the script
 python3 main.py sample.yaml
-
+```
 ---
 
 ## Functionality
@@ -74,7 +74,7 @@ python3 main.py sample.yaml
 
 ## Sample Output
 
-```
+```bash
 (venv) shalinikallepallli@MacBookAir sre-take-home-exercise-python % python3 main.py sample.yaml
 [2025-04-14 18:45:08] dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com has 50% availability percentage
 ---
